@@ -1,0 +1,280 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+#doc2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 201, 195);
+
+}
+
+#inner:hover {
+
+
+    box-shadow: 5px 5px 10px;
+    padding: 5%;
+    transition: ease-in-out 0.3s;
+
+}
+
+#inner {
+    border-radius: 20px;
+    width: 60vw;
+    background-color: rgb(18, 190, 234);
+    padding: 40px;
+}
+
+#hd {
+
+    display: flex;
+    justify-content: center;
+    height: 6%;
+}
+
+.nameHead {
+
+
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameCourse {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.nameCourse:hover {
+    font-size: 15px;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    transition: ease-in-out 0.3s;
+}
+
+.nameCourse h1 {
+    margin: 2px;
+}
+
+.nameCourse h2 {
+    margin: 2px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactInfo h3,
+h4 {
+    margin: 2px;
+}
+
+.contactInfo:hover {
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    transition: ease-in-out 0.3s;
+}
+
+.Profile .profileHeading {
+    text-decoration: underline 2px;
+}
+
+.Profile:hover {
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    border-radius: 10px;
+    padding: 2%;
+    transition: ease-in-out 0.3s;
+    background-color: bisque;
+}
+
+.Skills:hover {
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    border-radius: 10px;
+    padding: 2%;
+    transition: ease-in-out 0.3s;
+    background-color: bisque;
+}
+
+.Skills .skillsHead {
+    text-decoration: underline 2px;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.eduCont {
+    display: flex;
+}
+
+.eduCont * {
+    text-align: center;
+}
+
+.eduHead {
+    text-decoration: underline 2px;
+}
+
+.Education:hover {
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    border-radius: 10px;
+    padding: 2%;
+    transition: ease-in-out 0.3s;
+    background-color: bisque;
+
+}
+
+#eName1:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+#eName2:hover {
+    background-color: rgb(18, 190, 234);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+#eName3:hover {
+    background-color: rgb(18, 190, 234);
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    padding: 10px;
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.courseHead {
+    text-decoration: underline 2px;
+}
+
+.courseName {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cName {
+    width: 30%;
+}
+
+#cou1:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+#cou2:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+.Course:hover {
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    border-radius: 10px;
+    padding: 2%;
+    transition: ease-in-out 0.3s;
+    background-color: bisque;
+}
+
+
+.Skills .skillsCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillName {
+    border-radius: 4px;
+    width: 170px;
+    text-align: center;
+}
+
+.skillName h3 {
+    text-decoration: underline 1px;
+}
+
+#sName1:hover {
+    padding: 10px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+#sName2:hover {
+    background-color: rgb(18, 190, 234);
+    padding: 10px;
+    transition: all 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+#sName3:hover {
+    background-color: rgb(18, 190, 234);
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+.Technical:hover {
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+    border-radius: 10px;
+    padding: 2%;
+    transition: ease-in-out 0.3s;
+    background-color: bisque;
+}
+
+ul p {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.techName {
+    text-decoration: underline 2px;
+}
+
+.techSkills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.talent1:hover {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+.talent2:hover {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
+
+.talent3:hover {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(18, 190, 234);
+    transition: ease-in-out 0.3s;
+    box-shadow: 5px 5px 10px rgb(97, 76, 76);
+}
